@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="50px"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/updateinfoway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="更换网关"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:paddingRight="50px"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:orientation="vertical">
+
+            <Button
+                android:id="@+id/roundButton"
+                android:text="读取板卡数据"
+                android:textColor="@color/gray_600"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/shape"
+                />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

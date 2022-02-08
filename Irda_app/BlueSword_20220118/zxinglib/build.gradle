@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.yuzhiqiang1993'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "26.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation files('libs/core-3.3.0.jar')
+
+    compileOnly 'com.android.support:design:30.1.0'
+    compileOnly 'com.android.support:support-vector-drawable:30.1.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    compile files('libs/pl2303driver.jar')
+}
+repositories {
+    mavenCentral()
+}

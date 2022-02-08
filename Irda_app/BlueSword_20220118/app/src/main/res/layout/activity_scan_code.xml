@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanCodeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_collapseMode="pin"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        app:maxButtonHeight="20dp"
+        app:titleMargin="0dp"
+        android:background="@color/white"
+        >
+        <com.example.myapplication.components.SegmentView
+            android:id="@+id/segmentview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            >
+
+        </com.example.myapplication.components.SegmentView>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

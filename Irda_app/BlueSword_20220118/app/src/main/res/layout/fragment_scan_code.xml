@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/qxcode"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="50px"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+
+            android:id="@+id/farthtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="电辊筒扫码上传"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/sendcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingRight="50px"
+            android:text="发送"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_collapseMode="pin"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        app:maxButtonHeight="10dp"
+        app:titleMargin="0dp"
+        android:background="@color/white"
+        >
+        <com.example.myapplication.components.SegmentView
+            android:id="@+id/scmegmentview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            >
+
+        </com.example.myapplication.components.SegmentView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/screcycler"
+        android:layout_width="match_parent"
+        android:layout_height="460dp" />
+
+</LinearLayout>

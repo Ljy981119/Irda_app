@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BlueSword</string>
+
+    <string name="PL2303HXD_Set_BaudRate">波特率</string>
+    <string name="PL2303HXD_OpenCOMPort">打开</string>
+    <string name="PL2303HXD_WriteData">写入</string>
+    <string name="PL2303HXD_ReadData">读取</string>
+    <string name="PL2303HXD_LoopBack">环回</string>
+    <string name="PL2303HXD_GetSN">GetSN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="EditTextStyle">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

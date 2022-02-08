@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="50px"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/netdatalist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="连接网关"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:paddingRight="50px"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:baselineAligned="false"
+            android:background="@drawable/border"
+            android:dividerPadding="10dp"
+            android:text="网关"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                style="@style/EditTextStyle"
+                android:text="网关"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/wayName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@null"
+                android:ellipsize="none"
+                android:focusable="false"
+                android:hint="未连接"
+                android:maxLines="100"
+                android:scrollHorizontally="false"
+                android:textColor="@color/black"
+                android:textColorHint="@color/ts_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:baselineAligned="false"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textsh3"
+                style="@style/EditTextStyle"
+                android:text="状态"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/wayState"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@null"
+                android:ellipsize="none"
+                android:focusable="false"
+                android:hint="未连接"
+                android:maxLines="100"
+                android:scrollHorizontally="false"
+                android:textColor="@color/black"
+                android:textColorHint="@color/ts_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/jcontent"
+            android:paddingTop="40pt"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|center"
+            android:paddingLeft="5pt"
+            android:paddingRight="5pt"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/netsjbutton"
+                android:text="连接网关"
+                android:gravity="center"
+                android:textColor="@color/gray_600"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape"
+                />
+            <Button
+                android:id="@+id/kzbutton"
+                android:text="网关状态"
+                android:layout_marginTop="10pt"
+                android:gravity="center"
+                android:textColor="@color/gray_600"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

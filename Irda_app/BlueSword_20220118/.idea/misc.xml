@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/BlueSword/app/src/main/res/layout/activity_base.xml" value="0.17447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/BlueSword/app/src/main/res/layout/dialog_commom.xml" value="0.1890625" />
+        <entry key="..\:/AndroidStudioProjects/BlueSword/zxinglib/src/main/res/drawable/ic_close.xml" value="0.15092592592592594" />
+        <entry key="..\:/AndroidStudioProjects/BlueSword/zxinglib/src/main/res/drawable/ic_open.xml" value="0.14814814814814814" />
+        <entry key="..\:/AndroidStudioProjects/BlueSword/zxinglib/src/main/res/drawable/ic_photo.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/activity_base.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/activity_encode.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/activity_main.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/activity_scan_code.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/dialog_commom.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_community.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_connet_way.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_home.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_scan_code.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_shop_cart.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_update_way.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_updateway.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragment_user.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/fragmeny_tab.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/layout/home_item_view.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/L-JY/Desktop/BlueSword/app/src/main/res/menu/navigation.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/L-JY/Desktop/Irda_app/BlueSword_20220118/app/src/main/res/layout/fragment_scan_code.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/L-JY/Desktop/Irda_app/BlueSword_20220118/app/src/main/res/layout/fragment_shop_cart.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/L-JY/Desktop/Irda_app/BlueSword_20220118/app/src/main/res/layout/home_item_view.xml" value="0.22192028985507245" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

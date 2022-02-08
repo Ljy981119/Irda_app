@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/connect_selected"
+        android:icon="@drawable/select_connect_selected"
+        android:enabled="true"
+        android:title="连接网关"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/scanupload_selected"
+        android:icon="@drawable/select_scan_code"
+        android:enabled="true"
+        android:title="扫码上传"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/read_selected"
+        android:icon="@drawable/select_read_code"
+        android:enabled="true"
+        android:title="读取"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/change_selected"
+        android:icon="@drawable/select_chang_code"
+        android:enabled="true"
+        android:title="更换板卡"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/way_selected"
+        android:icon="@drawable/select_way_code"
+        android:enabled="true"
+        android:title="更换网关"
+        app:showAsAction="always"/>
+
+</menu>

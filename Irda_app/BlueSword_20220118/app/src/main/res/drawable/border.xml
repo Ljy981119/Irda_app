@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" >
+            <stroke
+                android:width="0.5dp"
+                android:color="#CDC5BF" />
+        </shape>
+    </item>
+
+    <item android:bottom="1dp"> <!--设置只有底部有边框-->
+        <shape>
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+</layer-list>
